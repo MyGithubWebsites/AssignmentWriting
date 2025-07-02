@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourWritingPro | Assignment, GPT, Resume Services</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>YourWritingPro</h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Professional Writing Services That Deliver</h2>
+      <p>Get expert help with assignments, AI content, and resume creation.</p>
+      <a href="#order" class="btn">Place an Order</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-list">
+        <div class="service">
+          <h3>Assignment Writing</h3>
+          <p>Academic writing assistance tailored to your subject and deadline.</p>
+        </div>
+        <div class="service">
+          <h3>GPT Writing</h3>
+          <p>AI-generated content refined by human experts for blogs, marketing, and more.</p>
+        </div>
+        <div class="service">
+          <h3>Resume Writing</h3>
+          <p>Modern, ATS-optimized resumes and personalized cover letters.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <h2>Pricing</h2>
+      <p>Prices vary by complexity and deadline. Request a custom quote via the order form.</p>
+    </div>
+  </section>
+
+  <!-- Order Form -->
+  <section id="order" class="section">
+    <div class="container">
+      <h2>Place an Order</h2>
+      <form id="orderForm">
+        <label>Name: <input type="text" name="name" required></label>
+        <label>Email: <input type="email" name="email" required></label>
+        <label>Service:
+          <select name="service" required>
+            <option value="assignment">Assignment Writing</option>
+            <option value="gpt">GPT Writing</option>
+            <option value="resume">Resume Writing</option>
+          </select>
+        </label>
+        <label>Deadline: <input type="date" name="deadline" required></label>
+        <label>Instructions: <textarea name="instructions" required></textarea></label>
+        <label>Upload File: <input type="file" name="file"></label>
+        <button type="submit">Submit Order</button>
+      </form>
+      <div id="formMsg"></div>
+    </div>
+  </section>
+
+  <!-- Payment -->
+  <section class="section">
+    <div class="container">
+      <h2>Payments</h2>
+      <h4>For India (UPI):</h4>
+      <p>Scan the QR or send payment to: <strong>yourupi@bank</strong></p>
+      <img src="upi-qr-placeholder.png" alt="UPI QR Code" class="qr-code">
+
+      <h4>For International (PayPal):</h4>
+      <div>
+        <form action="https://www.paypal.com/paypalme/yourpaypalusername" method="get" target="_blank">
+          <button class="btn">Pay via PayPal</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Have questions? Reach out to us directly.</p>
+      <a href="https://wa.me/91xxxxxxxxxx" target="_blank" class="btn">Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 YourWritingPro. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
